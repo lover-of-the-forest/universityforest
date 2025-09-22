@@ -271,7 +271,7 @@ html { scroll-behavior: smooth; }
 
 .map-container img {
     /* width: 100%;  この行は削除またはコメントアウト */
-    max-width: 60%; /* 例: 親要素の80%の幅にする */
+    max-width: 80%; /* 例: 親要素の80%の幅にする */
     height: auto;
     display: block;
     margin: 0 auto; /* ★追加：画像を中央に配置 */
@@ -311,6 +311,7 @@ html { scroll-behavior: smooth; }
     }
 
 }
+
 
 
 
