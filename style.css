@@ -261,7 +261,7 @@ html { scroll-behavior: smooth; }
 /* ===== アクセスセクション（マップ＋表） ===== */
 .access-grid {
     display: grid;
-    grid-template-columns: 0.8fr 0.96fr; /* 左(マップ):右(表) の比率 */
+    grid-template-columns: 1fr 1.5fr; /* 左(マップ):右(表) の比率 */
     gap: 40px;
     align-items: center;
 }
@@ -306,3 +306,4 @@ html { scroll-behavior: smooth; }
     }
 
 }
+
