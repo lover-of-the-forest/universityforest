@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>京都府立大学環境科学部付属演習林｜未来を育む、知の森林へ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@600;700&display=swap" rel="stylesheet">
+    <script src="news-data.js" defer></script>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">京都府立大学環境科学部付属演習林</a>
+            <nav class="global-nav">
+                <ul>
+                    <li><a href="#about">演習林について</a></li>
+                    <li><a href="#forests">演習林一覧</a></li>
+                    <li><a href="news.html">お知らせ</a></li>
+                            <li><a href="http://uf.kpu.ac.jp/kpu_uf/kyouiku/kyouiku.html">教育・研究</a></li>
+                            <li><a href="http://uf.kpu.ac.jp/kpu_uf/database/databese.html">データベース</a></li>
+                            <li><a href="http://uf.kpu.ac.jp/kpu_uf/kankoubutu/newsletter01.pdf">刊行物</a></li>
+                            <li><a href="http://uf.kpu.ac.jp/kpu_uf/shiyoutodoke/shiyoutodoke.html">使用届</a></li>
+                            <li><a href="http://uf.kpu.ac.jp/kpu_uf/toiawase/toiawase.html">お問い合わせ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <button class="hamburger-btn" aria-label="メニューを開く">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-nav">
+        <nav>
+            <ul>
+                <li><a href="#about">演習林について</a></li>
+                <li><a href="#forests">演習林一覧</a></li>
+                <li><a href="news.html">お知らせ</a></li>
+            </ul>
+            <hr>
+            <ul>
+                <li><a href="#">研究</a></li>
+                <li><a href="#">データベース</a></li>
+                <li><a href="#">刊行物</a></li>
+                <li><a href="#">使用届</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <section class="hero">
+            <div class="hero-slider" id="hero-slider">
+                <div class="slider-track">
+                    <div class="slide"><img src="大野学舎.jpg" alt="演習林の美しい森の風景1"></div>
+                    <div class="slide"><img src="くた演習林.jpg" alt="演習林の美しい森の風景2"></div>
+                    <div class="slide"><img src="スギ.jpg" alt="演習林の美しい森の風景3"></div>
+                </div>
+                <button class="slider-arrow prev" id="slider-prev">&lt;</button>
+                <button class="slider-arrow next" id="slider-next">&gt;</button>
+                <div class="slider-dots" id="slider-dots"></div>
+            </div>
+            <div class="hero-content">
+                <h1>未来を育む、<br>知恵の森へ。</h1>
+            </div>
+        </section>
+
+     
+
+        <section id="about" class="content-section animated-item">
+            <div class="container narrow">
+                <h2 class="section-title">大学の森「演習林」</h2>
+                <p class="lead-text">
+                    京都府立大学は、京都府内の６カ所（大野・大枝・鷹峯・久多・日吉・梅ヶ畑）に大学の森「演習林」を持っています。それぞれの演習林には、スギ・ヒノキ の人工林やブナなどの天然林等、様々な特徴があります。各演習林では、それぞれの特徴を生かして、森林科学科学生の野外実習や学生・教員の研究が行われて います。また「演習林野外セミナー」などの公開講座を通じて、府民にも親しまれています。森林科学（あるいは林学）に関する学科が設置されている大学においては、大学の附属施設として教育研究林（演習林）が設置され、森林科学の教育の場及び 試験研究の場として利用されています。　それと同時に、演習林では継続した森林経営を実践するため、経営計画に基づいて、間伐による立木の伐採及び販売や 新植・補植・下刈り・枝打ちといった森林の手入れが行われています。京都府立大学が持つ演習林は、京都府立農林学校時代に設置された大枝及び鷹峯演習林、そして京都府立農林専門学校への昇格に際して獲得した大野演習林、 さらに１９８３年（昭和５８年）に久多、１９８６年（昭和６１年）に日吉並びに<br>２００８年（平成２０年）に梅ヶ畑演習林を加えて、総面積７１０．３９ヘク タールに達しています。
+
+                </p>
+            </div>
+        </section>
+
+        <section id="news" class="content-section bg-light animated-item">
+            <div class="container narrow">
+                <h2 class="section-title">お知らせ</h2>
+                <ul class="news-list" id="news-list-container">
+                    </ul>
+                <div class="view-more-container">
+                    <a href="news.html" class="btn">お知らせ一覧へ</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="forests" class="content-section">
+            <div class="container">
+                <h2 class="section-title animated-item">６つの演習林</h2>
+                <div class="forests-grid">
+                    <a href="oono.html" class="forest-card animated-item"><img src="大野学舎.jpg" alt="大野演習林"><div class="card-content"><h3>大野演習林</h3><p>最大規模を誇る研究・実習のコア拠点</p></div></a>
+                    <a href="ooe.html" class="forest-card animated-item"><img src="大枝演習林.jpg" alt="大枝演習林"><div class="card-content"><h3>大枝演習林</h3><p>歴史と国際色豊かな都市近郊の森</p></div></a>
+                    <a href="kuta.html" class="forest-card animated-item"><img src="くた演習林.jpg" alt="久多演習林"><div class="card-content"><h3>久多演習林</h3><p>ブナの天然林が美しい自然の宝庫</p></div></a>
+                    <a href="umegahata.html" class="forest-card animated-item"><img src="梅ケ畑.jpg" alt="梅ヶ畑演習林"><div class="card-content"><h3>梅ヶ畑演習林</h3><p>北山林業の伝統を受け継ぐ森</p></div></a>
+                    <a href="hiyoshi.html" class="forest-card animated-item"><img src="日吉演習林.jpg" alt="日吉演習林"><div class="card-content"><h3>日吉演習林</h3><p>持続可能なエネルギー利用を学ぶ里山</p></div></a>
+                    <a href="takagamine.html" class="forest-card animated-item"><img src="鷹峯.jpg" alt="鷹峯演習林"><div class="card-content"><h3>鷹峯演習林</h3><p>アクセス抜群の小規模な研究林</p></div></a>
+                </div>
+            </div>
+        </section>
+
+        </section>
+
+     <section id="access" class="content-section bg-light animated-item">
+            <div class="container">
+                <h2 class="section-title">アクセス</h2>
+                <div class="access-grid">
+                    <div class="map-container">
+                        <img src="演習林map.jpg" alt="京都府立大学 演習林アクセスマップ">
+                    </div>
+                    <div class="access-table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>演習林名</th>
+                                    <th>車でのアクセス</th>
+                                    <th>公共交通機関</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>大野演習林</strong><br><small>南丹市美山町</small></td>
+                                    <td>約65km / 1時間50分</td>
+                                    <td>JR和知駅下車、南丹市営バスで「肱谷橋」へ、徒歩約30分</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>大枝演習林</strong><br><small>京都市西京区</small></td>
+                                    <td>約24km / 50分</td>
+                                    <td>京阪京都交通バスで「沓掛西口」または「老の坂峠」下車すぐ</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>鷹峯演習林</strong><br><small>京都市北区</small></td>
+                                    <td>約6km / 15分</td>
+                                    <td>京都市バスで「鷹峯源光庵前」下車、徒歩約10分</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>久多演習林</strong><br><small>京都市左京区</small></td>
+                                    <td>約50km / 1時間20分</td>
+                                    <td>京都バスで「梅の木」下車、徒歩約3時間</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>日吉演習林</strong><br><small>南丹市日吉町</small></td>
+                                    <td>約50km / 1時間10分</td>
+                                    <td>JR日吉駅下車、南丹市営バスで「スプリングスひよし」下車すぐ</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>梅ヶ畑演習林</strong><br><small>京都市右京区</small></td>
+                                    <td>約20km / 40分</td>
+                                    <td>JRバスで「小野下ノ町」下車、徒歩約40分</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+       <section class="disclaimer-section content-section">
+            <div class="container narrow animated-item">
+                <h2 class="section-title">このサイトについて</h2>
+                <p class="disclaimer-text">
+                    このウェブサイトは、学生が夏休みの暇つぶしとして制作したものです。<br>
+                    掲載内容に関する大学へのお問い合わせは、業務の妨げとなりますので固くお断りいたします。
+公式サイトは下のリンクからアクセスできます。<li><a href="http://www2.kpu.ac.jp/life_environ/forest_sci/">京都府立大学環境科学部森林科学科</a></li>
+<li><a href="http://uf.kpu.ac.jp/kpu_uf/">京都府立大学環境科学部付属演習林</a></li>
+
+
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer dark-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info"><h4>京都府立大学環境科学部付属演習林</h4><p>〒606-8522 京都市左京区下鴨半木町1-5</p></div>
+                <div class="footer-links"><ul><li><a href="index.html">トップ</a></li><li><a href="#about">演習林について</a></li><li><a href="#forests">演習林一覧</a></li><li><a href="news.html">お知らせ</a></li><li><a href="http://www2.kpu.ac.jp/life_environ/forest_sci/">京都府立大学環境科学部森林科学科</a></li></ul></div>
+            </div>
+            <div class="copyright"><p>&copy; Kyoto Prefectural University. All Rights Reserved.</p></div>
+        </div>
+    </footer>
+    
+    <script src="main.js"></script>
+</body>
+</html>
