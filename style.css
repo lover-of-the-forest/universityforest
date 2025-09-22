@@ -258,18 +258,23 @@ html { scroll-behavior: smooth; }
     }
 }
 
-/* ===== アクセスセクション（マップ＋表） ===== */
-.access-grid {
-    display: grid;
-    grid-template-columns: 1fr 2fr; /* 左(マップ):右(表) の比率 */
-    gap: 40px;
-    align-items: center;
+/* ===== アクセスマップ ===== */
+.map-container {
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+
+    /* ★追加：画像を中央に配置するために必要 */
+    text-align: center;
 }
 
-.access-table-container table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.9rem;
+.map-container img {
+    /* width: 100%;  この行は削除またはコメントアウト */
+    max-width: 80%; /* 例: 親要素の80%の幅にする */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* ★追加：画像を中央に配置 */
 }
 
 .access-table-container th,
@@ -306,5 +311,6 @@ html { scroll-behavior: smooth; }
     }
 
 }
+
 
 
