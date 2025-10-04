@@ -1,1 +1,198 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyoto Prefectural University Forest｜Towards a forest of wisdom that nurtures the future.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@600;700&display=swap" rel="stylesheet">
+    <script src="news-data.js" defer></script>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">Kyoto Prefectural University Forest</a>
+            <nav class="global-nav">
+                <ul>
+                    <li><a href="#about">About the Experimental Forest</a></li>
+                    <li><a href="#forests">List of Experimental Forests</a></li>
+                    <li><a href="news.html">announcements(Japanese)</a></li>
+                            <li><a href="http://uf.kpu.ac.jp/kpu_uf/kyouiku/kyouiku.html">Research(Japanese)</a></li>
+                            <li><a href="http://uf.kpu.ac.jp/kpu_uf/database/databese.html">Database(Japanese)</a></li>
+                            <li><a href="http://uf.kpu.ac.jp/kpu_uf/kankoubutu/newsletter01.pdf">Publications(Japanese)</a></li>
+                            <li><a href="http://uf.kpu.ac.jp/kpu_uf/shiyoutodoke/shiyoutodoke.html">Usage notification(Japanese)</a></li>
+                            <li><a href="http://uf.kpu.ac.jp/kpu_uf/toiawase/toiawase.html">inquiry(Japanese)</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <button class="hamburger-btn" aria-label="メニューを開く">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-nav">
+        <nav>
+            <ul>
+                <li><a href="#about">About the Experimental Forest</a></li>
+                <li><a href="#forests">List of Experimental Forests</a></li>
+                <li><a href="news.html">announcements(Japanese)</a></li>
+            </ul>
+            <hr>
+            <ul>
+                            <li><a href="http://uf.kpu.ac.jp/kpu_uf/kyouiku/kyouiku.html">Research(Japanese)</a></li>
+                            <li><a href="http://uf.kpu.ac.jp/kpu_uf/database/databese.html">Database(Japanese)</a></li>
+                            <li><a href="http://uf.kpu.ac.jp/kpu_uf/kankoubutu/newsletter01.pdf">Publications(Japanese)</a></li>
+                            <li><a href="http://uf.kpu.ac.jp/kpu_uf/shiyoutodoke/shiyoutodoke.html">Usage notification(Japanese)</a></li>
+                            <li><a href="http://uf.kpu.ac.jp/kpu_uf/toiawase/toiawase.html">inquiry(Japanese)</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <section class="hero">
+            <div class="hero-slider" id="hero-slider">
+                <div class="slider-track">
+                    <div class="slide"><img src="大野学舎.jpg" alt="演習林の美しい森の風景1"></div>
+                    <div class="slide"><img src="くた演習林.jpg" alt="演習林の美しい森の風景2"></div>
+                    <div class="slide"><img src="スギ.jpg" alt="演習林の美しい森の風景3"></div>
+                </div>
+                <button class="slider-arrow prev" id="slider-prev">&lt;</button>
+                <button class="slider-arrow next" id="slider-next">&gt;</button>
+                <div class="slider-dots" id="slider-dots"></div>
+            </div>
+            <div class="hero-content">
+                <h1>Towards a forest of wisdom that nurtures the future.</h1>
+            </div>
+        </section>
+
+     
+
+        <section id="about" class="content-section animated-item">
+            <div class="container narrow">
+                <h2 class="section-title">About the Experimental Forest</h2>
+                <p class="lead-text">
+                    Kyoto Prefectural University has six "University Forests" in Kyoto Prefecture (Ohno, Ohe, Takagamine, Kuta, Hiyoshi, and Umegahata). Each forest has its own unique characteristics, including artificial forests of Japanese cedar and cypress, and natural forests such as beech. Each forest utilizes its unique features to host field training for students of the Department of Forest Science and conduct research by students and faculty. They are also popular with the prefecture's residents through public lectures such as the "University Forest Outdoor Seminar." Universities with forest science (or forestry) departments have established educational and research forests (University Forests) as affiliated facilities, serving as a venue for forest science education and research. At the same time, to ensure sustainable forest management, the University Forests are maintained according to management plans, including thinning and sales of standing trees, new plantings, supplementary plantings, undergrowth clearing, and pruning. Kyoto Prefectural University's experimental forests include the Oeda and Takagamine Experimental Forests, which were established when the university was still the Kyoto Prefectural Agricultural and Forestry School, the Ohno Experimental Forest, which was acquired when the university was promoted to the Kyoto Prefectural College of Agriculture and Forestry, and the Kuta Experimental Forest, which was established in 1983 (Showa 58), the Hiyoshi
+Experimental Forest in 1986 (Showa 61), and the Umegahata Experimental Forest in 2008 (Heisei 20), for a total area of ​​710.39 hectares.
+
+                </p>
+            </div>
+        </section>
+
+        <section id="news" class="content-section bg-light animated-item">
+            <div class="container narrow">
+                <h2 class="section-title">notice</h2>
+                <ul class="news-list" id="news-list-container">
+                    </ul>
+                <div class="view-more-container">
+                    <a href="news.html" class="btn">To the list of announcements(Japanese)</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="forests" class="content-section">
+            <div class="container">
+                <h2 class="section-title animated-item">To the list of announcements(Japanese)</h2>
+                <div class="forests-grid">
+                    <a href="oono.html" class="forest-card animated-item"><img src="大野学舎.jpg" alt="大野演習林"><div class="card-content"><h3>Ohno Experimental Forest</h3><p>最大規模を誇る研究・実習のコア拠点</p></div></a>
+                    <a href="ooe.html" class="forest-card animated-item"><img src="大枝演習林.jpg" alt="大枝演習林"><div class="card-content"><h3>Ohe Experimental Forest</h3><p>歴史と国際色豊かな都市近郊の森</p></div></a>
+                    <a href="kuta.html" class="forest-card animated-item"><img src="くた演習林.jpg" alt="久多演習林"><div class="card-content"><h3>Takagamine Experimental Forest</h3><p>ブナの天然林が美しい自然の宝庫</p></div></a>
+                    <a href="umegahata.html" class="forest-card animated-item"><img src="梅ケ畑.jpg" alt="梅ヶ畑演習林"><div class="card-content"><h3>Umegahata Experimental Forest</h3><p>北山林業の伝統を受け継ぐ森</p></div></a>
+                    <a href="hiyoshi.html" class="forest-card animated-item"><img src="日吉演習林.jpg" alt="日吉演習林"><div class="card-content"><h3>Hiyoshi Experimental Forest</h3><p>持続可能なエネルギー利用を学ぶ里山</p></div></a>
+                    <a href="takagamine.html" class="forest-card animated-item"><img src="鷹峯.jpg" alt="鷹峯演習林"><div class="card-content"><h3>Takamine Experimental Forest</h3><p>アクセス抜群の小規模な研究林</p></div></a>
+                </div>
+            </div>
+        </section>
+
+        </section>
+
+     <section id="access" class="content-section bg-light animated-item">
+            <div class="container">
+                <h2 class="section-title">access</h2>
+                <div class="access-grid">
+                    <div class="map-container">
+                        <img src="演習林map.jpg" alt="京都府立大学 演習林アクセスマップ">
+                    </div>
+                    <div class="access-table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>演習林名</th>
+                                    <th>車でのアクセス</th>
+                                    <th>公共交通機関</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>大野演習林</strong><br><small>南丹市美山町</small></td>
+                                    <td>約65km / 1時間50分</td>
+                                    <td>JR和知駅下車、南丹市営バスで「肱谷橋」へ、徒歩約30分</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>大枝演習林</strong><br><small>京都市西京区</small></td>
+                                    <td>約24km / 50分</td>
+                                    <td>京阪京都交通バスで「沓掛西口」または「老の坂峠」下車すぐ</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>鷹峯演習林</strong><br><small>京都市北区</small></td>
+                                    <td>約6km / 15分</td>
+                                    <td>京都市バスで「鷹峯源光庵前」下車、徒歩約10分</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>久多演習林</strong><br><small>京都市左京区</small></td>
+                                    <td>約50km / 1時間20分</td>
+                                    <td>京都バスで「梅の木」下車、徒歩約3時間</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>日吉演習林</strong><br><small>南丹市日吉町</small></td>
+                                    <td>約50km / 1時間10分</td>
+                                    <td>JR日吉駅下車、南丹市営バスで「スプリングスひよし」下車すぐ</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>梅ヶ畑演習林</strong><br><small>京都市右京区</small></td>
+                                    <td>約20km / 40分</td>
+                                    <td>JRバスで「小野下ノ町」下車、徒歩約40分</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+       <section class="disclaimer-section content-section">
+            <div class="container narrow animated-item">
+                <h2 class="section-title">このサイトについて</h2>
+                <p class="disclaimer-text">
+                    このウェブサイトは、学生が夏休みの暇つぶしとして制作したものです。<br>
+                    掲載内容に関する大学へのお問い合わせは、業務の妨げとなりますので固くお断りいたします。
+公式サイトは下のリンクからアクセスできます。<li><a href="http://www2.kpu.ac.jp/life_environ/forest_sci/">京都府立大学環境科学部森林科学科</a></li>
+<li><a href="http://uf.kpu.ac.jp/kpu_uf/">京都府立大学環境科学部付属演習林</a></li>
+
+
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer dark-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info"><h4>京都府立大学環境科学部付属演習林</h4><p>〒606-8522 京都市左京区下鴨半木町1-5</p></div>
+                <div class="footer-links"><ul><li><a href="index.html">トップ</a></li><li><a href="#about">演習林について</a></li><li><a href="#forests">演習林一覧</a></li><li><a href="news.html">お知らせ</a></li><li><a href="http://www2.kpu.ac.jp/life_environ/forest_sci/">京都府立大学環境科学部森林科学科</a></li></ul></div>
+            </div>
+            <div class="copyright"><p>&copy; Kyoto Prefectural University. All Rights Reserved.</p></div>
+        </div>
+    </footer>
+    
+    <script src="main.js"></script>
+</body>
+
+</html>
 
